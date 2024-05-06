@@ -4,8 +4,8 @@
   "description": "## Overview",
   "main": "index.js",
   "scripts": {
-    "sass:compile": "sass ./scss/main.scss ./css/main.css",
-    "sass:watch": "sass ./scss/main.scss ./css/main.css -w",
+    "sass:compile": "sass ./sass/main.scss ./css/main.css",
+    "sass:watch": "sass ./sass/main.scss ./css/main.css -w",
     "css:prefix": "postcss ./css/main.css --use autoprefixer -b \"last 2 versions\" -o ./css/main.css"
   },
   "keywords": [],
