@@ -23,6 +23,8 @@ $clr-violet-blue: hsla(256, 72%, 46%, 1);
 $clr-persian-blue: hsla(241, 72%, 46%, 0);
 $clr-dark-navy: hsl(224, 30%, 27%);
 $clr-dark-navy-opacity: hsla(224, 30%, 27%, 50%);
+$clr-light-blue: #cac9ff;
+$shadow: hsla(224, 82%, 58%, 15%);
 
 //mixins
 @mixin laptop {
@@ -101,7 +103,6 @@ h6 {
   max-width: 23.4375rem;
   margin-inline: auto;
   @include laptop {
-    background-color: $clr-pale-blue;
     max-width: 100%;
     place-content: center;
   }
@@ -110,6 +111,7 @@ h6 {
   background-color: $clr-white;
   display: grid;
   grid-template-columns: auto;
+  box-shadow: 0 1.875rem 3.75rem $shadow;
   @include laptop {
     grid-template-columns: repeat(2, 1fr);
     border-radius: 2rem;
@@ -127,7 +129,7 @@ h6 {
   }
   &__title {
     font-size: 1.125rem;
-    color: $clr-white;
+    color: $clr-light-blue;
     @include laptop {
       font-size: 1.5rem;
     }
@@ -186,7 +188,7 @@ h6 {
     &--clr-yellow {
       color: $clr-orangey-yellow;
     }
-    &--clr-yellow {
+    &--clr-teal {
       color: $clr-green-teal;
     }
     &--clr-blue {
@@ -236,7 +238,7 @@ h6 {
     }
   }
   &__content {
-    color: $clr-light-slate-blue;
+    color: $clr-light-blue;
     font-size: 1.125rem;
   }
 }
@@ -250,6 +252,6 @@ h6 {
   }
   &__content {
     font-size: 1.125rem;
-    color: $clr-white;
+    color: $clr-light-blue;
   }
 }
