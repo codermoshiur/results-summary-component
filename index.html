@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Challange name</title>
+    <title>Results summary component</title>
     <link
       rel="shortcut icon"
       href="./assets/images/favicon-32x32.png"
@@ -12,12 +12,109 @@
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <!-- <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by
-      <a href="https://codersfoundation.com?ref=challenge">Moshiur</a>.
-    </div> -->
+    <main>
+      <section class="results-summary-component">
+        <div class="container">
+          <div class="results">
+            <div class="results__score">
+              <h2 class="results__title">Your Result</h2>
+              <div class="score">
+                <div class="score__title">76</div>
+                <small class="score__content">of 100</small>
+              </div>
+              <div class="comments">
+                <h1 class="comments__title">Great</h1>
+                <p class="comments__content">
+                  Your performance exceed 65% of the people conducting the test
+                  here!
+                </p>
+              </div>
+            </div>
+            <div class="results__summary">
+              <h2 class="results__summary-title">Summary</h2>
+              <div class="results__list">
+                <div class="results__list-item">
+                  <div class="results__list-item-info">
+                    <img
+                      src="./assets/images/icon-reaction.svg"
+                      class="results__list-item-img"
+                      alt="icon-reaction"
+                    />
+                    <span
+                      class="results__list-item-title results__list-item-title--clr-red"
+                      >Reaction</span
+                    >
+                  </div>
+                  <div class="results__list-item-score">
+                    <p class="results__list-item-score-content">
+                      <span class="results__list-item-score-number">80</span> /
+                      100
+                    </p>
+                  </div>
+                </div>
+                <div class="results__list-item">
+                  <div class="results__list-item-info">
+                    <img
+                      src="./assets/images/icon-memory.svg"
+                      class="results__list-item-img"
+                      alt="icon-memory"
+                    />
+                    <span
+                      class="results__list-item-title results__list-item-title--clr-yellow"
+                      >Memory</span
+                    >
+                  </div>
+                  <div class="results__list-item-score">
+                    <p class="results__list-item-score-content">
+                      <span class="results__list-item-score-number">92</span> /
+                      100
+                    </p>
+                  </div>
+                </div>
+                <div class="results__list-item">
+                  <div class="results__list-item-info">
+                    <img
+                      src="./assets/images/icon-verbal.svg"
+                      class="results__list-item-img"
+                      alt="icon-verbal"
+                    />
+                    <span
+                      class="results__list-item-title results__list-item-title--clr-teal"
+                      >Verbal</span
+                    >
+                  </div>
+                  <div class="results__list-item-score">
+                    <p class="results__list-item-score-content">
+                      <span class="results__list-item-score-number">61</span> /
+                      100
+                    </p>
+                  </div>
+                </div>
+                <div class="results__list-item">
+                  <div class="results__list-item-info">
+                    <img
+                      src="./assets/images/icon-visual.svg"
+                      class="results__list-item-img"
+                      alt="icon-visual"
+                    />
+                    <span
+                      class="results__list-item-title results__list-item-title--clr-blue"
+                      >Visual</span
+                    >
+                  </div>
+                  <div class="results__list-item-score">
+                    <p class="results__list-item-score-content">
+                      <span class="results__list-item-score-number">73</span> /
+                      100
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <button class="results__cta" type="button">Continue</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>

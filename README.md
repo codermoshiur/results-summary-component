@@ -1,4 +1,4 @@
-# Frontend Mentor - Challange name
+# Frontend Mentor - Results summary component
 
 ## Overview
 
@@ -10,7 +10,7 @@
 
 #### Mobile
 
-![](Screenshot)
+![](./design/desktop-design.png)
 
 ### Links
 
@@ -22,7 +22,7 @@
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- CSS Flexbox
 - CSS Grid
 - Mobile-first workflow
 
